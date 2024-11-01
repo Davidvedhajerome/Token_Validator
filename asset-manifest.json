@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/Token_Validator/static/css/main.63725dd2.css",
+    "main.js": "/Token_Validator/static/js/main.0839db43.js",
+    "index.html": "/Token_Validator/index.html",
+    "main.63725dd2.css.map": "/Token_Validator/static/css/main.63725dd2.css.map",
+    "main.0839db43.js.map": "/Token_Validator/static/js/main.0839db43.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.63725dd2.css",
+    "static/js/main.0839db43.js"
+  ]
+}
