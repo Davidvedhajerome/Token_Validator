@@ -1,0 +1,24 @@
+/* src/index.css or public/index.css */
+
+/* Reset some default styling */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f5f7fa;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  color: #333;
+}
+
+/* App container styling if needed */
+#root {
+  width: 100%;
+  max-width: 500px;
+}

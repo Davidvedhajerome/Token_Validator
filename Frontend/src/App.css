@@ -1,0 +1,81 @@
+/* App.css */
+
+body {
+  font-family: Arial, sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background: linear-gradient(135deg, #f5f7fa, #c3cfe2);
+  margin: 0;
+}
+
+.App {
+  width: 400px;
+  max-width: 90%; /* Adjusts width on smaller screens */
+  padding: 20px;
+  box-shadow: 0 8px 15px rgba(0, 0, 0, 0.1);
+  background: #fff;
+  border-radius: 15px;
+  transform: perspective(500px) rotateX(5deg);
+}
+
+input {
+  width: 100%;
+  padding: 10px;
+  margin: 5px 0;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  box-shadow: inset 2px 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+button {
+  width: 100%;
+  padding: 10px;
+  border: none;
+  border-radius: 8px;
+  background: linear-gradient(135deg, #ff7e5f, #feb47b);
+  color: white;
+  font-weight: bold;
+  box-shadow: 0 4px 8px rgba(255, 126, 95, 0.2);
+  cursor: pointer;
+  transition: 0.3s ease;
+}
+
+button:hover {
+  transform: translateY(-2px) scale(1.05);
+}
+
+/* Media Queries */
+
+/* For tablets and smaller laptops */
+@media (max-width: 768px) {
+  .App {
+    width: 350px;
+    padding: 15px;
+  }
+
+  button {
+    padding: 8px;
+  }
+}
+
+/* For mobile devices */
+@media (max-width: 480px) {
+  .App {
+    width: 90%;
+    padding: 10px;
+  }
+
+  h1 {
+    font-size: 1.5em;
+  }
+
+  input {
+    padding: 8px;
+  }
+
+  button {
+    padding: 8px;
+  }
+}
